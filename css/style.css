@@ -2,17 +2,16 @@ body{background:#ddd;color:#555;font-family:arial}
 #wrapper{margin:0 auto;width:960px}
 #content{-moz-border-radius:4px;-webkit-border-radius:4px;background:#fff;border:1px solid #aaa;line-height:25px;padding:30px}
 #content a{color:#a52a4b;text-decoration:none}
-.clearfix:after{clear:both;content:' ';display:block;font-size:0;height:0;line-height:0;visibility:hidden;width:0}
+.clear:after{clear:both;content:".";display:block;height:0;visibility:hidden}
 nav ul li{display:inline}
 nav ul li a{color:#565656;display:block;float:left;font-size:1.25em;font-weight:700;margin:5px 2px;padding:7px 20px 4px;text-shadow:0 1px 1px #FFF;text-transform:uppercase}
 nav ul li a:visited{color:#565656;display:block;float:left;font-size:1.25em;font-weight:700;margin:5px 2px;padding:7px 10px 4px;text-shadow:0 1px 1px #FFF;text-transform:uppercase}
 nav ul li a:hover{background-color:#f0f0f0;text-decoration:none}
-header nav{margin:0 auto;width:350px}
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;height:0;line-height:0;visibility:hidden;width:0}
 section#contact,section#skills,section#awards,section#certifications,section#employment{border-bottom:1px dashed #999}
 section#contact,section#skills{padding-bottom:10px}
 section h2{color:#444;margin:10px 0}
 section#contact img.photo{border:1px solid #999;float:left;margin-right:30px}
-section#contact #details{float:left}
 section#contact h1{color:#333;font-size:28px;margin-bottom:15px;margin-top:0}
 section#contact span.email,section#contact span.phone{display:block;margin-bottom:3px}
 section#contact div.social{display:block;margin-top:10px}
@@ -21,3 +20,4 @@ summary{border-bottom:1px dashed #aaa}
 section#employment h3{margin:5px 0}
 section#employment p{margin:25px 0}
 section .duration{display:block;font-size:90%;font-weight:700}
+section#contact #details{float:left}
