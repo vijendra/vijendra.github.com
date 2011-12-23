@@ -1,5 +1,5 @@
 body{background:#ddd;color:#555;font-family:arial}
-#wrapper{margin:0 auto;width:960px}
+#wrapper{margin:0 auto;width:920px}
 #content{-moz-border-radius:4px;-webkit-border-radius:4px;background:#fff;border:1px solid #aaa;line-height:25px;padding:30px}
 #content a{color:#a52a4b;text-decoration:none}
 .clear:after{clear:both;content:".";display:block;height:0;visibility:hidden}
