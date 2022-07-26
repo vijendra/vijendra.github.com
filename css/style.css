@@ -19,6 +19,7 @@ section#contact span.email{display:block;margin-bottom:5px}
 section#contact div.social{display:block;margin-top:25px}
 section#contact div.social img{margin-right:50px}
 summary{border-bottom:1px dashed #aaa; padding: 10px 0;}
+#portfolio{border-bottom:1px dashed #aaa; padding: 10px 0;}
 section#employment h3{margin:5px 0}
 section#employment p{margin:25px 0}
 section .duration{display:block;font-size:90%;font-weight:700}
